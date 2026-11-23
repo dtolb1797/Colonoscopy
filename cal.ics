@@ -1,0 +1,169 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ChatGPT//Colonoscopy Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Colonoscopy Preparation and Appointment - December 2026
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:colonoscopy-20261221-0@chatgpt.local
+DTSTAMP:20261123T120000Z
+DTSTART;TZID=America/New_York:20261216T080000
+DTEND;TZID=America/New_York:20261216T081000
+SUMMARY:Begin low-fiber meals (suggested)
+DESCRIPTION:Suggested start only. Avoid seeds\, nuts\, corn and whole grains if instructed by your clinic.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Begin low-fiber meals (suggested)
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:colonoscopy-20261221-1@chatgpt.local
+DTSTAMP:20261123T120000Z
+DTSTART;TZID=America/New_York:20261219T190000
+DTEND;TZID=America/New_York:20261219T191000
+SUMMARY:Gather colonoscopy preparation supplies
+DESCRIPTION:Have PEG-3350\, bisacodyl\, permitted drinks\, helper and ride home arranged.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Gather colonoscopy preparation supplies
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:colonoscopy-20261221-2@chatgpt.local
+DTSTAMP:20261123T120000Z
+DTSTART;TZID=America/New_York:20261220T070000
+DTEND;TZID=America/New_York:20261220T071000
+SUMMARY:Clear liquids only today
+DESCRIPTION:No solid food. Follow your clinic's dietary and liquid instructions.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Clear liquids only today
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:colonoscopy-20261221-3@chatgpt.local
+DTSTAMP:20261123T120000Z
+DTSTART;TZID=America/New_York:20261220T080000
+DTEND;TZID=America/New_York:20261220T081000
+SUMMARY:Take bisacodyl - 2 tablets
+DESCRIPTION:Take two 5 mg enteric-coated bisacodyl tablets as prescribed.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Take bisacodyl - 2 tablets
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:colonoscopy-20261221-4@chatgpt.local
+DTSTAMP:20261123T120000Z
+DTSTART;TZID=America/New_York:20261220T120000
+DTEND;TZID=America/New_York:20261220T121000
+SUMMARY:Take bisacodyl - final 2 tablets
+DESCRIPTION:Take the final two 5 mg enteric-coated bisacodyl tablets as prescribed.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Take bisacodyl - final 2 tablets
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:colonoscopy-20261221-5@chatgpt.local
+DTSTAMP:20261123T120000Z
+DTSTART;TZID=America/New_York:20261220T170000
+DTEND;TZID=America/New_York:20261220T171000
+SUMMARY:Start first 2 liters of PEG-3350
+DESCRIPTION:Begin first half of PEG prep as prescribed. Stay near a bathroom.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Start first 2 liters of PEG-3350
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:colonoscopy-20261221-6@chatgpt.local
+DTSTAMP:20261123T120000Z
+DTSTART;TZID=America/New_York:20261221T000000
+DTEND;TZID=America/New_York:20261221T001000
+SUMMARY:Stop other clear liquids
+DESCRIPTION:Follow your clinic's exact cutoff instructions. Prescribed bowel preparation may be allowed.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Stop other clear liquids
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:colonoscopy-20261221-7@chatgpt.local
+DTSTAMP:20261123T120000Z
+DTSTART;TZID=America/New_York:20261221T060000
+DTEND;TZID=America/New_York:20261221T061000
+SUMMARY:Begin remaining PEG-3350
+DESCRIPTION:Start final 2 liters of prescribed bowel preparation.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Begin remaining PEG-3350
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:colonoscopy-20261221-8@chatgpt.local
+DTSTAMP:20261123T120000Z
+DTSTART;TZID=America/New_York:20261221T080000
+DTEND;TZID=America/New_York:20261221T081000
+SUMMARY:Finish PEG preparation
+DESCRIPTION:Finish remaining prescribed PEG solution by 8:00 AM per schedule. Follow clinic liquid cutoff.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Finish PEG preparation
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:colonoscopy-20261221-9@chatgpt.local
+DTSTAMP:20261123T120000Z
+DTSTART;TZID=America/New_York:20261221T101500
+DTEND;TZID=America/New_York:20261221T102500
+SUMMARY:Arrive for colonoscopy check-in
+DESCRIPTION:Scheduled check-in at 10:15 AM. Bring ID and arrange a ride home.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Arrive for colonoscopy check-in
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:colonoscopy-20261221-10@chatgpt.local
+DTSTAMP:20261123T120000Z
+DTSTART;TZID=America/New_York:20261221T110000
+DTEND;TZID=America/New_York:20261221T120000
+SUMMARY:Colonoscopy procedure
+DESCRIPTION:Scheduled colonoscopy at 11:00 AM. End time is a placeholder\, not a confirmed discharge time.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Colonoscopy procedure
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
